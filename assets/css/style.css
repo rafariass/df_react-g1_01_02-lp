@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.s-principal {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../img/s-principal.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.s-principal .box {
+  background-color: rgba(0, 0, 0, .5);
+  text-align: center;
+  color: #fff;
+  padding: 45px;
+  border-radius: 15px;
+}
+
+.s-principal .box h1 {
+  font-size: 85px;
+  font-weight: 700;
+}
+
+.s-principal .box p {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.s-productos {
+  width: 75%;
+  margin: auto;
+  padding: 65px 0px;
+}
+
+.s-productos .box {
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, .5);
+  border-radius: 10px;
+  padding: 25px;
+  margin: 35px 0px;
+}
+
+.s-productos .box h2 {
+  font-size: 55px;
+  font-weight: 700;
+}
+
+.s-productos .box .card-deck {
+  width: 100%;
+  margin: 50px 0px;
+  display: flex;
+  justify-content: start;
+  gap: 50px;
+}
+
+.s-productos .box .card-deck .card {
+  width: 250px;
+  padding: 15px;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+.s-productos .box .card-deck .card img {
+  width: 100%;
+  height: 250px;
+}
+
+.s-productos .box .card-deck .card hr {
+  margin: 15px 0px;
+}
+
+footer {
+  color: #fff;
+  text-align: center;
+  background-color: #000;
+  padding: 25px 0px;
+}
+
+footer p {
+  vertical-align: middle;
+  line-height: 2rem;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+footer p a {
+  color: #fff;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  vertical-align: middle;
+}
+
+footer p a img {
+  padding: 0 5px;
+}
+
+footer p a span {
+  font-weight: 700;
+}
